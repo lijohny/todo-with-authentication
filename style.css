@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.main {
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    0deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+.Head {
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  cursor: default;
+  user-select: none;
+}
+.innerBox {
+  /* text-align: center; */
+  /* line-height: 35px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 50%;
+  height: 50%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background: rgba(59, 59, 59, 0.726);
+  border-radius: 25px;
+}
+
+.Nmae,
+.uname,
+.psw {
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 19px;
+  color: rgb(1, 147, 209);
+}
+.Username,
+.email,
+.pass {
+  margin-top: 20px;
+  height: 45px;
+  width: 400px;
+  outline: none;
+  font-size: 20px;
+  /* background-color: rgba(59, 59, 59, 0.726); */
+  /* background-color: rgb(45, 61, 87); */
+  background: none;
+  /* border: none; */
+  border-color: rgb(255, 255, 255);
+  /* border-style: solid; */
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  /* border-radius: 10px; */
+  color: white;
+}
+.alredy {
+  color: #979797;
+}
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.Signup {
+  display: flex;
+  justify-content: center;
+}
+.Login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.Sign_button {
+  height: 40px;
+  width: 120px;
+  color: white;
+  background-color: rgb(1, 147, 209);
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+}
+.login_button {
+  height: 40px;
+  width: 120px;
+  color: white;
+  background-color: rgb(1, 147, 209);
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+}
+::placeholder {
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+}
